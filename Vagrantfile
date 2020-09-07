@@ -75,7 +75,7 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
   # SHELL
 
-  3.times do |num|
+  4.times do |num|
     config.vm.define "image-#{num}" do |web|
       web.vm.network "private_network", ip: "192.168.33.#{10+num}"
       web.vm.provider "virtualbox" do |vb|

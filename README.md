@@ -10,7 +10,7 @@ isucon7本戦とほぼ同じ環境を構築するためのVagrantfileです。
 - このリポジトリ内のVagrantfileを手元に用意する
   - 必要に応じてVagrantfileを編集する
 - Vagrantfileがあるディレクトリで`vagrant up`を実行する
-  - ベンチマーク用サーバ(bench)と参加者用サーバ(image) x3 が起動
+  - ベンチマーク用サーバ(bench)と参加者用サーバ(image) x4 が起動
 - Ansibleによるプロビジョニングが完了したら`vagrant ssh`を実行する
   - vagrant ssh bench
   - vagrant ssh image-0
